@@ -12,5 +12,5 @@
   4. Ấn vào theme muốn cài trong danh sách dưới
 
 ## Các theme đang có
-- FB new UI translucent: [dark](https://raw.githubusercontent.com/DELNEGEND/UserCSS/dist/fb/dark.user.css), [light](https://raw.githubusercontent.com/DELNEGEND/UserCSS/dist/fb/light.user.css)
-- YT translucent [dark](https://raw.githubusercontent.com/DELNEGEND/UserCSS/dist/yt/dark.user.css), [light](https://raw.githubusercontent.com/DELNEGEND/UserCSS/dist/yt/light.user.css)
+- FB new UI translucent: [dark](https://raw.githubusercontent.com/DELNEGEND/UserCSS/master/dist/fb/dark.user.css), [light](https://raw.githubusercontent.com/DELNEGEND/UserCSS/master/dist/fb/light.user.css)
+- YT translucent [dark](https://raw.githubusercontent.com/DELNEGEND/UserCSS/master/dist/yt/dark.user.css), [light](https://raw.githubusercontent.com/DELNEGEND/UserCSS/master/dist/yt/light.user.css)
