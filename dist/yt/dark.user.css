@@ -1,0 +1,8 @@
+@-moz-document domain("youtube.com"){ytd-masthead,ytd-multi-page-menu-renderer[slot=dropdown-content],div[id=guide-content],div[class=sbdd_b]{background:rgba(33,33,33,.4) !important;backdrop-filter:blur(5px) !important}ytd-active-account-header-renderer[class="style-scope ytd-multi-page-menu-renderer"],ytd-multi-page-menu-renderer[class="style-scope ytd-multi-page-menu-renderer"],ytd-simple-menu-header-renderer[class="style-scope ytd-multi-page-menu-renderer"],ytd-account-settings[class="style-scope yt-multi-page-menu-section-renderer"],div[class="style-scope ytd-searchbox"],div[class=sbsb_a],div[class=sbdd_b] div[class=sbfl_b]{background:transparent !important}div[class=sbdd_b] li,div[class=sbdd_b] div[class=sbfl_b]{color:#f0f0f0;transition:background .3s ease-out}div[class=sbdd_b] li:hover,div[class=sbdd_b] div[class=sbfl_b]:hover{background:rgba(0,0,0,.3)}div[class=sbdd_b]{border:none}}/*! ==UserStyle==
+@name        YT dark translucent
+@namespace   github.com/DELNEGEND/UserCSS
+@version     1.0.0
+@license     MIT
+@updateURL   https://raw.usergithubcontent.com/DELNEGEND/UserCSS/dist/yt/dark.user.css
+@author      DELNEGEND <contact@delnegend.xyz> (https://github.com/DELNEGEND)
+==/UserStyle== */

@@ -1,0 +1,13 @@
+/*! ==UserStyle==
+@name        YT dark translucent
+@namespace   github.com/DELNEGEND/UserCSS
+@version     1.0.0
+@license     MIT
+@updateURL   https://raw.usergithubcontent.com/DELNEGEND/UserCSS/dist/yt/dark.user.css
+@author      DELNEGEND <contact@delnegend.xyz> (https://github.com/DELNEGEND)
+==/UserStyle== */
+@use 'base' with (
+  $glass-shade: rgba(33, 33, 33, .4),
+  $hover-on-search-result: rgba(0, 0, 0, 0.3),
+  $text-color: rgb(240, 240, 240),
+)

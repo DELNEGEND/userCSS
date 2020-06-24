@@ -1,0 +1,39 @@
+$glass-shade: rgba(33, 33, 33, .4) !default;
+$hover-on-search-result: rgba(0, 0, 0, 0.3) !default;
+$text-color: rgb(240, 240, 240) !default;
+
+@-moz-document domain("youtube.com") {
+
+  ytd-masthead,
+  ytd-multi-page-menu-renderer[slot="dropdown-content"],
+  div[id="guide-content"],
+  div[class='sbdd_b'] {
+    background: $glass-shade !important;
+    backdrop-filter: blur(5px) !important;
+  }
+
+  ytd-active-account-header-renderer[class="style-scope ytd-multi-page-menu-renderer"],
+  ytd-multi-page-menu-renderer[class="style-scope ytd-multi-page-menu-renderer"],
+  ytd-simple-menu-header-renderer[class="style-scope ytd-multi-page-menu-renderer"],
+  ytd-account-settings[class="style-scope yt-multi-page-menu-section-renderer"],
+  div[class='style-scope ytd-searchbox'],
+  // SB = searchbox
+  div[class='sbsb_a'],
+  div[class='sbdd_b'] div[class='sbfl_b'] {
+    background: transparent !important;
+  }
+
+  div[class='sbdd_b'] li,
+  div[class='sbdd_b'] div[class='sbfl_b'] {
+    color: $text-color;
+    transition: background .3s ease-out;
+
+    &:hover {
+      background: $hover-on-search-result;
+    }
+  }
+
+  div[class='sbdd_b'] {
+    border: none;
+  }
+}

@@ -1,0 +1,111 @@
+$transparent-bg-shade: rgba(0, 0, 0, 0.4) !default;
+$blur-intensity: 4px !default;
+
+@-moz-document domain("facebook.com") {
+  /* nav and options boxes */
+  div#mount_0_0 div[class="kr520xx4 j9ispegn poy2od1o n7fi1qx3 tkr6xdv7"],
+  div[class="cwj9ozl2 ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi nwpbqux9 rq0escxv jgsskzai ni8dbmo4 stjgntxs"]
+  /* search popup */
+  div[class="ll8tlv6m j83agx80 taijpn5t hzruof5a"] div[class="bjjx79mm jbae33se"],
+  div[class="ll8tlv6m j83agx80 taijpn5t hzruof5a"] div[class="j83agx80 cbu4d94t lzcic4wl ni8dbmo4 stjgntxs oqq733wu l9j0dhe7 du4w35lb cwj9ozl2 ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi nwpbqux9 gc7gaz0o k4urcfbm"],
+
+  /* in-group options */
+  div[class="j34wkznp qp9yad78 pmk7jnqg kr520xx4"] div[class="cwj9ozl2 ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi nwpbqux9 rq0escxv jgsskzai ni8dbmo4 stjgntxs"],
+
+  /* in-group sticky title */
+  div[class='rq0escxv lpgh02oy tkr6xdv7 rek2kq2y'],
+
+  /* navbar in settings */
+  div[class='kr520xx4 j9ispegn poy2od1o n7fi1qx3 tkr6xdv7'],
+
+  // Messenger
+  div[class="datstx6m j83agx80 cbu4d94t ni8dbmo4 stjgntxs"],
+  div.j83agx80.bp9cbjyn.ni8dbmo4.stjgntxs.rq0escxv.cxgpxx05.sj5x9vvc.scb9dxdr.dflh9lhu.abiwlrkh.k4urcfbm.m7zwrmfr.nred35xi.rlauoc8d.tn0ko95a.cmqm4kv0.b7h9ocf4,
+  div[class='nred35xi ue3kfks5 pw54ja7n leyxi2ww pi1r6xr4 fwkrndq2 gu00c43d j83agx80 ni8dbmo4 stjgntxs l60d2q6s pd6db7fv pcu7st4i dflh9lhu abiwlrkh i75qjh01 bp9cbjyn rq0escxv'],
+  // More chats button
+  div[aria-label="More chats"] div[class="m7zwrmfr tmrshh9y nred35xi ue3kfks5 pw54ja7n leyxi2ww i75qjh01 j83agx80 taijpn5t bp9cbjyn"],
+
+  // Hover on contact
+  div[class='rq0escxv l9j0dhe7 du4w35lb j83agx80 cbu4d94t discj3wi ihqw7lf3 cwj9ozl2 ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi i4q6vifz nxkscmto ni8dbmo4 stjgntxs ina5je9e ds2cst1u j0n1g8ya s0yb55qm gfcslif0'],
+
+  // New message
+  div[class='l9j0dhe7 j83agx80 pfnyh3mw i1fnvgqd bp9cbjyn ni8dbmo4 stjgntxs cxgpxx05 sj5x9vvc dati1w0a hv4rvrfc ue3kfks5 pw54ja7n pcdcaq2l nred35xi k7cz35w2 kavbgo14'],
+  div[class='pfnyh3mw tgvbjcpo tkr6xdv7 nred35xi nwf6jgls flhsghwj'],
+  div[class='nred35xi cbu4d94t buofh1pr ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi dt9zfp0i g5gj957u tgvbjcpo fwkrndq2'],
+
+  // React to message
+  div[class='qu0x051f esr5mh6w e9989ue4 r7d6kgcz hybvsw6c orhb3f3m czkt41v7 fmqxjp7s emzo65vh nwpbqux9 j83agx80 fdg1wqfs jxrgncrl ae35evdt qnrpqo6b'],
+
+  // Search suggest
+  div[class='cwj9ozl2 rq0escxv j83agx80 cbu4d94t buofh1pr uo3d90p7 l82x9zwi sj5x9vvc dflh9lhu scb9dxdr'],
+
+  // minimizable mess popup
+  div[class='nred35xi pw54ja7n ue3kfks5 eu4i7hue kwja4m9d aerw5wb0'] {
+    backdrop-filter: blur($blur-intensity) !important;
+    background-color: $transparent-bg-shade !important;
+  }
+
+  /* navbar */
+  div[class="rq0escxv l9j0dhe7 du4w35lb cddn0xzi j83agx80 cbu4d94t byvelhso"],
+  /* search popup */
+  div[class="ll8tlv6m j83agx80 taijpn5t hzruof5a"] div[class="bjjx79mm jbae33se"],
+  div[class="ll8tlv6m j83agx80 taijpn5t hzruof5a"] div[class="cwj9ozl2 rq0escxv j83agx80 cbu4d94t buofh1pr"],
+  div[class="ll8tlv6m j83agx80 taijpn5t hzruof5a"] div[class="j83agx80 cbu4d94t lzcic4wl ni8dbmo4 stjgntxs oqq733wu l9j0dhe7 du4w35lb cwj9ozl2 ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi nwpbqux9 gc7gaz0o k4urcfbm"],
+  /* ingroup sticky title */
+  div[class="rq0escxv l9j0dhe7 du4w35lb j83agx80 taijpn5t gs1a9yip owycx6da btwxx1t3 cddn0xzi dsne8k7f"],
+  // Lower right messenger window
+  div[class='nred35xi ue3kfks5 pw54ja7n jinzq4gt mrjvor2e eu4i7hue jq4qci2q a3bd9o3v ni8dbmo4 stjgntxs gu00c43d jbcpqwzg fh5enmmv kwja4m9d la0exbxb'],
+  div[class='rj1gh0hx buofh1pr j83agx80 l9j0dhe7 cbu4d94t ni8dbmo4 stjgntxs'],
+
+  // Messenger popup
+  div[data-pagelet="ChatTab"] .nred35xi,
+  div[class='nred35xi rq0escxv a8c37x1j dflh9lhu scb9dxdr k4urcfbm'],
+
+  // Search input
+  div[class='rq0escxv byvelhso q10oee1b poy2od1o j9ispegn kr520xx4 o36gj0jk ru5i1254 ekbqdzos cwj9ozl2'] {
+    background: transparent !important
+  }
+
+  // Popup mess > sender bubble > corners
+  div[class="rj1gh0hx buofh1pr ni8dbmo4 stjgntxs"] .i6jr3soi:after {
+    border: none;
+  }
+
+  // Arrow in window after press more chats
+  div[class='j7g94pet et4y5ytx cdcbzqsl goun2846 ccm00jje s44p3ltw mk2mc5f4 jgf7e1nu tl61u9r6 bcctvi4p gcjuebxg kvs4odcb hzruof5a pmk7jnqg jxfglsfo lu1ps8bl kr520xx4'] {
+    opacity: 0;
+  }
+
+  div[class="qbubdy2e pmk7jnqg plgsh5y4 n7fi1qx3 hzruof5a"],
+  div[class="qbubdy2e pmk7jnqg tghqpdut n7fi1qx3 hzruof5a"] {
+    display: none;
+  }
+
+  div[class='ni8dbmo4 stjgntxs ii04i59q'] {
+    background-image: linear-gradient(to left top, #c0392b, #c7254c, #c2206e, #af3090, #8e44ad);
+    border-radius: 17px;
+  }
+
+  div[aria-hidden="false"] {
+    transition: opacity .2s;
+  }
+
+  div[aria-hidden="true"] {
+    div[class='nred35xi j83agx80 rv4hoivh cxgpxx05 k4urcfbm rq0escxv'] {
+      transition: opacity .2s;
+      opacity: 0;
+    }
+  }
+
+  div[class='nred35xi j83agx80 rv4hoivh cxgpxx05 k4urcfbm rq0escxv'] {
+    height: 50px;
+    padding: 12px 0;
+  }
+
+  div[class='aovydwv3 j83agx80 buofh1pr ni8dbmo4 cxgpxx05 sj5x9vvc qio8uep8 l9j0dhe7'] {
+    padding: 0;
+    bottom: 8px;
+    overflow: hidden;
+    border-radius: 1000px;
+  }
+}

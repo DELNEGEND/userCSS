@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name        FB dark translucent
+@namespace   github.com/DELNEGEND/UserCSS
+@version     1.0.0
+@license     MIT
+@updateURL   https://raw.usergithubcontent.com/DELNEGEND/UserCSS/dist/fb/dark.user.css
+@author      DELNEGEND <contact@delnegend.xyz> (https://github.com/DELNEGEND)
+==/UserStyle== */
+@use 'base' with (
+  $transparent-bg-shade: rgba(0, 0, 0, 0.4),
+  $blur-intensity: 4px,
+);
