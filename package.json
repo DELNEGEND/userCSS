@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.26.9"
+  },
+  "name": "usercss.delnegend",
+  "description": "Translucent for dark theme only",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "run-p fb:dark fb:light yt:dark yt:light",
+    "fb:dark": "sass --watch src/fb/dark.scss:dist/fb/dark.user.css --style compressed --no-source-map",
+    "fb:light": "sass --watch src/fb/light.scss:dist/fb/light.user.css --style compressed --no-source-map",
+    "yt:dark": "sass --watch src/yt/dark.scss:dist/yt/dark.user.css --style compressed --no-source-map",
+    "yt:light": "sass --watch src/yt/light.scss:dist/yt/light.user.css --style compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DELNEGEND/UserCSS.git"
+  },
+  "author": "DELNEGEND",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DELNEGEND/UserCSS/issues"
+  },
+  "homepage": "https://github.com/DELNEGEND/UserCSS#readme"
+}
